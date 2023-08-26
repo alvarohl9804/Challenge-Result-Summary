@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Hankenbold';
-    src: url(/assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
+    src: url(../assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
 }
 @font-face {
     font-family: 'Hankenmedium';
-    src: url(/assets/fonts/static/HankenGrotesk-Medium.ttf);
+    src: url(../assets/fonts/static/HankenGrotesk-Medium.ttf);
 }
 @font-face {
     font-family: 'Hanken';
-    src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+    src: url(../assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
 }
 * {
     padding: 0;
@@ -240,6 +240,7 @@ img{
 .btn-continue{
     color: white;
     cursor: pointer;
+    border: none;
     font-family: 'Hankenbold';
     background-color: #303b59;
     height: 40px;
